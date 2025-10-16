@@ -2,7 +2,7 @@
 
 An **abstractive text summarization app** built using a **Transformer model (facebook/bart-large-cnn)**.  
 This project automatically generates concise summaries from long articles using state-of-the-art NLP techniques.  
-It includes a notebook for model exploration and a Streamlit-based front-end for deployment.
+It includes a notebook for model exploration.
 
 ---
 
@@ -40,7 +40,6 @@ The summarizer compresses text while preserving meaning — not by extracting se
 Text_Summarizer_App/
 │
 ├── Text_Summarizer_App.ipynb     # Main notebook
-├── app.py                        # Streamlit front-end (optional)
 ├── requirements.txt               # Dependencies
 ├── README.md                      # Documentation
 └── LICENSE                        # License file
@@ -54,7 +53,6 @@ Text_Summarizer_App/
 ![Transformers](https://img.shields.io/badge/Transformers-FF6F00?style=flat&logo=huggingface&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-D00000?style=flat&logo=huggingface&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-005C84?style=flat&logo=matplotlib&logoColor=white)
 
@@ -75,13 +73,6 @@ pip install -r requirements.txt
 jupyter notebook Text_Summarizer_App.ipynb
 ```
 
-### 3️⃣ Run the Streamlit App
-```bash
-streamlit run app.py
-```
-
----
-
 ## 📊 Evaluation Dashboard
 
 | Metric | Description |
@@ -98,7 +89,6 @@ streamlit run app.py
 - Implementing abstractive summarization using Transformers  
 - Evaluating model performance using ROUGE metrics  
 - Building lightweight dashboards for NLP metric visualization  
-- Deploying summarization pipelines using Streamlit  
 
 ---
 
@@ -143,8 +133,7 @@ SOFTWARE.
 ## 🌟 Acknowledgments
 
 - [Hugging Face Transformers](https://huggingface.co/transformers/) for model and dataset APIs  
-- [PyTorch](https://pytorch.org/) backend for efficient computation  
-- [Streamlit](https://streamlit.io/) for web app deployment  
+- [PyTorch](https://pytorch.org/) backend for efficient computation    
 - [CNN/DailyMail Dataset](https://huggingface.co/datasets/cnn_dailymail) for training and evaluation  
 
 ---
